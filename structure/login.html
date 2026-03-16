@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../style/login.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="header-container container">
+            <div class="logo">
+                <img src="../assets/boxes.svg" alt="Logo" width="30" height="30">
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-btn">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#education">Education</a></li>
+                    <li><a href="page2.html">Portfolio</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-action">
+                <a href="login.html" class="btn login-btn">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-main login-page-main">
+        <div class="container">
+            <div class="login-wrapper">
+                <div class="login-card">
+                    <div class="login-header">
+                        <h2>Admin <span>Login</span></h2>
+                        <p>Welcome back! Please enter your credentials.</p>
+                    </div>
+
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="input-group">
+                            <label for="username">Username</label><br>
+                            <input type="text" id="username" name="username" placeholder="Enter your username"
+                                class="form-control" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="password">Password</label><br>
+                            <input type="password" id="password" name="password" placeholder="••••••••"
+                                class="form-control" required>
+                        </div>
+
+                        <div class="login-options">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="remember">
+                                <span>Remember me</span>
+                            </label>
+                            <a href="#" class="forgot-link">Forgot password?</a>
+                        </div>
+
+                        <div class="submit-group">
+                            <button type="submit" class="btn btn-submit btn-block">Login to Account</button>
+                        </div>
+
+                        <div class="login-footer">
+                            <p>Don't have an account? <a href="#">Register here</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <div class="footer-container container">
+            <p>&copy; 2026 I Kadek Mahesa Permana Putra — All rights reserved</p>
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="page2.html">Portfolio</a>
+                <a href="login.html">Login</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>

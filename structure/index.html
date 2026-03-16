@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="../style/index.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="header-container container">
+            <div class="logo">
+                <img src="../assets/boxes.svg" alt="Logo" width="30" height="30">
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-btn">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="../structure/portfolio.html">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-action">
+                <a href="../structure/login.html" class="btn login-btn">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-main">
+        <div class="container">
+
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Hi, I'm <span>Mahesa</span></h1>
+                        <h3>Informatics Student &amp; Aspiring DevOps Engineer</h3>
+                        <p class="intro-description">
+                            I'm currently a 4th-semester student at <strong>Informatics Engineering</strong>. 
+                            I have a strong interest in <em>cloud Computing</em>, <u>automation</u>, and 
+                            Software Development Life Cycles (SDLC).
+                        </p>
+                        <div class="btn-group">
+                            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                            <a href="../structure/portfolio.html" class="btn btn-secondary">View Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="../assets/profile.jpeg" alt="Foto Mahesa Permana" width="200" height="280">
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- Education Section -->
+            <section id="education" class="about-section">
+                <div class="section-container">
+                    <div class="section-title">
+                        <h2>Education History</h2>
+                        <p class="section-subtitle">
+                            My academic journey and relevant certifications in the field of technology.
+                        </p>
+                    </div>
+                    <div class="table-wrapper">
+                        <table class="data-table">
+                            <caption>Academic Background</caption>
+                            <thead>
+                                <tr class="table-header">
+                                    <th>No</th>
+                                    <th>Institution</th>
+                                    <th>Major / Program</th>
+                                    <th>Year</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="table-row">
+                                    <td>1</td>
+                                    <td>University of Mataram</td>
+                                    <td>Informatics Engineering</td>
+                                    <td>2024 - Present</td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td>2</td>
+                                    <td>SMA Negeri 1 Selat</td>
+                                    <td>Science</td>
+                                    <td>2021 - 2024</td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td>3</td>
+                                    <td>SMP Negeri 2 Selat</td>
+                                    <td>Junior High School</td>
+                                    <td>2018 - 2021</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr class="table-footer">
+                                    <th colspan="4">Gaining practical experience through projects and workshops.</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact-section">
+                <div class="section-container">
+                    <div class="section-title">
+                        <h2>Contact Me</h2>
+                        <p class="section-subtitle">
+                            Let's connect! I am always open to discussing new projects or creative ideas.
+                        </p>
+                    </div>
+
+                    <div class="form-wrapper">
+                        <form action="#" method="POST" class="contact-form">
+                            <fieldset>
+                                <legend>Direct Message</legend>
+
+                                <div class="input-group">
+                                    <label for="fullname">Full Name:</label><br>
+                                    <input type="text" id="fullname" name="fullname"
+                                        placeholder="e.g. Mahesa Permana"
+                                        class="form-control" required>
+                                </div>
+
+                                <div class="input-group">
+                                    <label for="email">Email Address:</label><br>
+                                    <input type="email" id="email" name="email"
+                                        placeholder="e.g. mahesa@example.com"
+                                        class="form-control" required>
+                                </tr>
+
+                                <div class="input-group">
+                                    <label for="subject">Subject:</label><br>
+                                    <input type="text" id="subject" name="subject"
+                                        placeholder="What's this about?"
+                                        class="form-control" required>
+                                </div>
+
+                                <div class="input-group feedback-group">
+                                    <label for="message">Message:</label>
+                                    <textarea id="message" name="message" rows="5"
+                                        placeholder="Write your message here..."
+                                        class="form-control" required></textarea>
+                                </div>
+
+                                <div class="input-group submit-group">
+                                    <button type="submit" class="btn btn-submit">Send Message</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <hr>
+
+    <footer class="page-footer">
+        <div class="footer-container container">
+            <p>&copy; 2026 I Kadek Mahesa Permana Putra — All rights reserved</p>
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="../structure/portfolio.html">Portfolio</a>
+                <a href="https://github.com/Vuxyn/" target="_blank">GitHub</a>
+                <a href="../structure/login.html">Login</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
